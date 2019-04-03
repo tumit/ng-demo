@@ -9,8 +9,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "init-ghp": "git remote add ghp_origin https://github.com/tumit/tumit.github.io.git",
-    "build-ghp": "ng build --prod --base-href='https://tumit.github.io' --output-path=ghp",
-    "publish-ghp": "git subtree push --prefix ghp ghp_origin master"
+    "build-ghp": "ng build --prod --base-href='.' --output-path=ghp",
+    "publish-ghp": "git subtree push --prefix ghp ghp_origin master",
+    "ghp": "ng build --prod --base-href='https://tumit.github.io/' --output-path=ghp && git subtree push --prefix ghp ghp_origin master"
   },
   "private": true,
   "dependencies": {

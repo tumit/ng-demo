@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "init-gp": "git submodule add https://github.com/tumit/tumit.github.io tumit.github.io",
-    "build-gp": "ng build --prod --base-href='https://tumit.github.io'",
+    "build-gp": "ng build --prod --base-href='https://tumit.github.io' --output-path=gh-pages",
     "publish-gp": "git "
   },
   "private": true,
